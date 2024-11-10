@@ -184,7 +184,7 @@ Os globais que não são explicitamente incluídos na lista, por exemplo, propri
 
 As diretivas são atributos especiais com o prefixo `v-`. A Vue fornece um número de [diretivas embutidas](/api/built-in-directives), incluindo `v-html` e `v-bind` que introduzimos acima.
 
-Os valores do atributo da diretiva são esperados serem expressões de JavaScript únicas (com a exceção de `v-for`, `v-on`, e `v-slot`, as quais serão discutidas nas suas respetivas seções adiante). O trabalho duma diretiva é aplicar atualizações de maneira reativa ao DOM quando o valor da sua expressão mudar. Consideremos [`v-if`](/api/built-in-directives#v-if) como um exemplo:
+Os valores do atributo da diretiva são esperados serem expressões de JavaScript únicas (com a exceção de `v-for`, `v-on`, e `v-slot`, as quais serão discutidas nas suas respectivas seções adiante). O trabalho duma diretiva é aplicar atualizações de maneira reativa ao DOM quando o valor da sua expressão mudar. Consideremos [`v-if`](/api/built-in-directives#v-if) como um exemplo:
 
 ```vue-html
 <p v-if="seen">Now you see me</p>
